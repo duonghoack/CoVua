@@ -1,0 +1,66 @@
+void CAPNHAT(int BanCo[8][8],int SOCONCO[],char TENCO[])
+{
+	for(int k=0;k<64;k++)
+		{
+			SOCONCO[k]=BanCo[k/8][k%8];
+		}
+		for(int l=0;l<64;l++)
+		{
+			if(SOCONCO[l]==0)
+			{
+				TENCO[l]=' ';
+			}
+			if(SOCONCO[l]==1)
+			{
+				TENCO[l]='C';
+			}
+			if(SOCONCO[l]==2)
+			{
+				TENCO[l]='X';
+			}
+			if(SOCONCO[l]==3)
+			{
+				TENCO[l]='M';
+			}
+			if(SOCONCO[l]==4)
+			{
+				TENCO[l]='T';
+			}
+			if(SOCONCO[l]==5)
+			{
+				TENCO[l]='H';
+			}
+			if(SOCONCO[l]==6)
+			{
+				TENCO[l]='V';
+			}
+			if(SOCONCO[l]==0)
+			{
+				TENCO[l]=' ';
+			}
+			if(SOCONCO[l]==-1)
+			{
+				TENCO[l]='c';
+			}
+			if(SOCONCO[l]==-2)
+			{
+				TENCO[l]='x';
+			}
+			if(SOCONCO[l]==-3)
+			{
+				TENCO[l]='m';
+			}
+			if(SOCONCO[l]==-4)
+			{
+				TENCO[l]='t';
+			}
+			if(SOCONCO[l]==-5)
+			{
+				TENCO[l]='h';
+			}
+			if(SOCONCO[l]==-6)
+			{
+				TENCO[l]='v';
+			}
+		}
+}

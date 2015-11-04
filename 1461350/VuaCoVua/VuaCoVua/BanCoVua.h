@@ -1,0 +1,40 @@
+void BanCoVua(int BanCo[8][8],char TENCO[],int SOCONCO[])
+{
+		int i=0,j=0;
+		BanCo[i][j++]=2;
+		BanCo[i][j++]=3;
+		BanCo[i][j++]=4;
+		BanCo[i][j++]=5;
+		BanCo[i][j++]=6;
+		BanCo[i][j++]=4;
+		BanCo[i][j++]=3;
+		BanCo[i][j++]=2;
+		i++;j=0;	
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		BanCo[i][j++]=1;
+		i=7;j=0;
+		BanCo[i][j++]=-2;
+		BanCo[i][j++]=-3;
+		BanCo[i][j++]=-4;
+		BanCo[i][j++]=-5;
+		BanCo[i][j++]=-6;
+		BanCo[i][j++]=-4;
+		BanCo[i][j++]=-3;
+		BanCo[i][j++]=-2;
+		i--;j=0;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		BanCo[i][j++]=-1;
+		printf("\n");
+}
